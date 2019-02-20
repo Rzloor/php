@@ -117,3 +117,14 @@ function connectRedis(){
     $redis->connect(Config("REDIS_HOST"),Config("REDIS_PORT"));
     return $redis;
 }
+function dsLayerOpenSuccess($msg = '',$url='') {
+//    echo "<script>var index = parent.layer.getFrameIndex(window.name);parent.layer.close(index);parent.location.reload();</script>";
+    $url_js = empty($url)?"parent.location.reload();":"parent.location.href='".$url."';";
+
+    $str = "<script>";
+    $str .= "parent.layer.alert('".$msg."',{yes:function(index, layero){".$url_js."},cancel:function(index, layero){".$url_js."}});";
+    $str .= "</script>";
+    echo $str;
+    exit;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>滑动加载数据</title>
+    <script  src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+</head>
+<body>
+<div id="discount">
+
+</div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        var page = 1;
+        var discount = $('#discount');
+        var innerHeight = window.innerHeight;
+        var time2 = null;
+        $.ajax({
+            url: '{:url("getdata")}',
+            type: 'GET',
+            dataType: 'json',
+            timeout: '1000',
+            cache: 'false',
+            success: function (data) {
+                    var arrText = [];
+                    for (var t=0;t<data.length;t++){
+                        arrText.push('<div class="title">');
+                        arrText.push('<h3>'+t.title+'</h3>');
+                        arrText.push('<h3>'+t.des+'</h3>');
+                        arrText.push('</div>');
+                    }
+                    discount.html(arrText.join(''));
+            }
+        })
+    })
+</script>
+</html>

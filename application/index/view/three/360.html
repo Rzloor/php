@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>360全景图</title>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <!-- 启用webAPP全屏模式-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 隐藏状态栏或者设置状态栏的颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 禁止缓存访问页面-->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="applicable-device" content="mobile">
+    <!-- 页面关键词-->
+    <link rel="stylesheet"  href="__STATIC__/index/css/photo-sphere-viewer.css" ></link>
+    <script src="__STATIC__/index/js/photo-sphere-viewer.js"></script>
+    <script src="__STATIC__/index/js/uevent.js"></script>
+    <script src="__STATIC__/index/js/doT.js"></script>
+    <script src="__STATIC__/index/js/three.js"></script>
+    <script src="__STATIC__/index/js/jquery-1.11.3.min.js"></script>
+    <script src="__STATIC__/index/js/polyfill.js"></script>
+</head>
+<body>
+<div id="container"></div>
+
+<style>
+    html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</body>
+<a href="http://kf.workerman.net" web-id="rziqee.cn" id="workerman-kefu">在线客服</a>
+<script src="http://kf.workerman.net/static/layui/layui.js"></script>
+<script src="http://kf.workerman.net/static/layui/workerman-kefu.js"></script>
+<script>
+    var div = document.getElementById('container');
+    var PSV = new PhotoSphereViewer({
+        panorama: '__STATIC__/index/images/360.jpg',
+        container: div,
+        time_anim: 3000,
+        navbar: true,
+        navbar_style: {
+            backgroundColor: 'rgba(58, 67, 77, 0.7)'
+        },
+    });
+</script>
+</html>

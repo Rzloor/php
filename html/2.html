@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wap端加载动态加载数据</title>
+    　<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+</head>
+<body class="invite-body" onload="load()">
+<div>
+    <div class="header" style="width: 300px;height: 300px;border: ">
+
+    </div>
+    <p class="p_symx_tip">上拉加载更多......</p>
+    <input type="hidden" value="1" id="pageNum"/>
+</div>
+</body>
+<script>
+    function load() {
+        //判断页面滚动条是否下拉到底部
+        var totalheight = 0;
+        var div = $('.header');
+        if (div.length > 0) {
+            div.scroll(function () {
+                var srollPos = $div.scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+                totalheight = parseFloat($div.height())
+                    + parseFloat(srollPos);
+                if (($(document).height() - 50) <= totalheight) {
+                    getInvitateShow(false,null);
+                    return;
+                }
+            });
+        }
+    }
+
+    var flag = true;
+    function getInvitateShow(bool,search) {
+        var pageNum = $("#pageNum").val();
+        var key = $("#key").val();
+        if (bool) {
+            flag = true;
+            pageNum = 0;
+        }
+        //请求后台数据
+        if (flag) {
+            flag = false;
+            $('.p_symx_tip').html("努力加载中...");
+            $.post('', {pageNum: pageNum}, function (data) {
+            }, "json")
+                $('.p_symx_tip').html("上拉加载更多");
+                var html;
+                if (data.invitationList.length == 0) {
+                    $('.p_symx_tip').remove();
+                    return;
+                };
+                if(search!=null){
+                    $("#ulList").find('li').remove();
+                }
+                for (var i = 0; i < data.invitationList.length; i++) {
+                    html = '<li>'
+                        +'<div class="list">'
+                        +'<p></p>'
+                        +'<a href=""></a>'
+                        +'</div>'
+                        + '</li>'
+
+                    $('#span').before(html);
+
+                    $("#pageNum").val(parseInt(pageNum) + 1);
+                    flag = true;
+                }
+        }
+    }
+</script>
+</html>

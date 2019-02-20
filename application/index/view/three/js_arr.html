@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript 数据存储</title>
+</head>
+<body>
+
+</body>
+<script language="JavaScript">
+    // 存入数组不重复值
+    function pushArr(myarr,mydata) {
+        if (myarr.length==0){
+            myarr.push(mydata);
+        } else{
+            var otopush = true;
+            for (var x in myarr)
+            {
+                if (myarr[x] == mydata){
+                    otopush = false;
+                }
+            }
+            if (otopush){
+                myarr.push(mydata);
+            }
+        }
+        return mydata;
+    }
+    function F() {
+        let host = window.location.host;
+        let domain = document.domain;
+        alert("host="+host+"domain="+domain);
+    }
+    F();
+</script>
+</html>

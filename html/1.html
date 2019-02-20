@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>qdstudy.com</title>
+    <!--<link rel="./static/jquery.min.js">-->
+    　<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <style>
+        .eq{width: 200px;height: 200px;background: #dddddd;}
+    </style>
+</head>
+<body>
+<!--<div class="sib">-->
+    <!--<input type="button" value="1" id="btn1">-->
+    <!--<input type="button" value="2" id="btn2">-->
+    <!--<input type="button" value="3" id="btn3">-->
+<!--</div>-->
+
+<!--<button onclick="cl()" id="cl">触发</button>-->
+
+<input name="按钮" type="button" onClick="clic()" value="按钮">
+<div id="content"></div>
+
+<!-- eq 遍历 -->
+<!--<div class="eq">
+    <ul>
+        <li>第1个</li>
+        <li>第2个</li>
+        <li>第3个</li>
+        <li>第4个</li>
+        <li>第5个</li>
+    </ul>
+</div>
+<br>
+<div class="eq"></div>-->
+<div>
+    <select id="slt">
+        <option selected="selected">1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</div>
+<div id="d1" data-role="page" data-last-value="43" data-hidden="true"
+     data-options='{"name":"John"}'>
+</div>
+
+
+
+</body>
+<script type="text/javascript">
+    var a=$("#d1").data("role"); // "page"
+    var b=$("#d1").data("lastValue"); // 43
+    var c=$("#d1").data("hidden"); // true;
+    var d=$("#d1").data("options").name; // "John";
+    console.log(a,b,c,d);;
+    /*$(function () {
+        $(".sib input[type='button']").click(function () {
+            $(this).css('background','red');
+            $(this).siblings().css('background','blue');
+        })
+    })*/
+
+
+    // jquery eq 选择器
+    // var btn = $('input:eq(0)');
+    // console.log(btn);
+
+
+    function cl()
+    {
+        $(document).ready(function () {
+            // $('ul li:gt(2)').css('color', '#FF0000');
+            // $('ul li:eq(2)').css('color','red');
+        });
+    }
+
+    //addEventListener
+    /*document.getElementById("cl").addEventListener("click", function(){
+        // document.getElementById("demo").innerHTML = "Hello World";
+        alert(123);
+    });*/
+
+
+    // js高级实用技巧
+
+    // （1）函数循环执行10次
+    $(function () {
+        /*9var i=0;
+        function job() {
+            console.log(i++);
+            if (i < 10){
+                setTimeout(job,1000);
+            }
+        }
+        job();*/
+        // for循环
+        /*var arr = [1,2,3,4,5,6,7,8,9];
+        for (var i=arr.length;i--;){
+            console.log(arr[i]);
+        }*/
+        // if判断
+        /*var i=1,ret;
+        ret=i!==1 || true;
+        console.log(ret);*/
+        
+    })
+
+
+    /********************************************javascript动态生成按钮并绑定点击事件************************/
+   /* clic();
+    function clic() {
+        var bs = document.getElementsByTagName("input");
+        for (var i=0;i<bs.length;i++){
+            var b = bs[i];
+            b.setAttribute('aaa',i);
+            b.addEventListener('click',function () {
+                var s  = confirm("我是"+this.getAttribute("aaa")+'个按钮，是否生成按钮');
+                if (s){
+                    document.getElementById('content').innerHTML += "<br\><input name=\"按钮\" type=\"button\" onclick=\"clic()\" value=\"按钮\">"
+                }
+            })
+        }
+    }*/
+
+   /******************select********/
+   var n=$('#slt').find('option:selected').length;
+   alert(n);
+    $(function(){
+        $("select#ctlJob").change(function(){
+            $.getJSON("/select.php",{id: $(this).val(), ajax: 'true'}, function(j){
+                var options = '';
+                for (var i = 0; i < j.length; i++) {
+                    options += '<option value="' + j[i].optionValue + '">' + j[i].optionDisplay + '</option>';
+                }
+                $("select#ctlPerson").html(options);
+            })
+        })
+    })
+</script>
+</html>
