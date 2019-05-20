@@ -239,4 +239,13 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+    //模板静态文件
+    'tpl_replace_string'  =>  [
+        '__STATIC__'        => '/static/',
+        '__STATIC_CSS__'    => '/static/css/',
+        '__STATIC_JS__'    => '/static/js/',
+        '__STATIC_IMAGES__'    => '/static/images/',
+        '__STATIC_UPLOADS__'    => '/static/uploads/',
+        '__STATIC_LIB__'    => '/static/lib/',
+    ]
 ];

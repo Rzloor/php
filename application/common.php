@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/common_global.php';
 // 应用公共文件
 #冒泡排序
 function bubble_sort(&$arr){
@@ -127,4 +128,173 @@ function dsLayerOpenSuccess($msg = '',$url='') {
     echo $str;
     exit;
 }
+//showdialog
+function ds_show_dialog($message = '', $url = '', $alert_type = 'error', $extrajs = '', $time = 2)
+{
+    $message = str_replace("'", "\\'", strip_tags($message));
+
+    $paramjs = null;
+    if ($url == 'reload') {
+        $paramjs = 'window.location.reload()';
+    }
+    elseif ($url != '') {
+        $paramjs = 'window.location.href =\'' . $url . '\'';
+    }
+    if ($paramjs) {
+        $paramjs = 'function (){' . $paramjs . '}';
+    }
+    else {
+        $paramjs = 'null';
+    }
+    $modes = array('error' => 'alert', 'succ' => 'succ', 'notice' => 'notice', 'js' => 'js');
+    $cover = $alert_type == 'error' ? 1 : 0;
+    $extra = 'showDialog(\'' . $message . '\', \'' . $modes[$alert_type] . '\', null, ' . ($paramjs ? $paramjs : 'null') . ', ' . $cover . ', null, null, null, null, ' . (is_numeric($time) ? $time : 'null') . ', null);';
+    $extra = '<script type="text/javascript" reload="1">' . $extra . '</script>';
+    if ($extrajs != '' && substr(trim($extrajs), 0, 7) != '<script') {
+        $extrajs = '<script type="text/javascript" reload="1">' . $extrajs . '</script>';
+    }
+    $extra .= $extrajs;
+    ob_end_clean();
+    @header("Expires: -1");
+    @header("Cache-Control: no-store, private, post-check=0, pre-check=0, max-age=0", FALSE);
+    @header("Pragma: no-cache");
+    @header("Content-type: text/xml; charset=utf-8");
+
+    $string = '<?xml version="1.0" encoding="utf-8"?>' . "\r\n";
+    $string .= '<root><![CDATA[' . $message . $extra . ']]></root>';
+    echo $string;
+    exit;
+}
+//冒泡法 升降序排列数组
+function arraysort($data, $order = 'asc') {
+//asc升序 desc降序
+    $temp = array ();
+    $count = count ( $data );
+    if ($count <= 0)
+        return false; //传入的数据不正确
+    if ($order == 'asc') {
+        for($i = 0; $i < $count; $i ++) {
+            for($j = $count - 1; $j > $i; $j --) {
+                if ($data [$j] < $data [$j - 1]) {
+//交换两个数据的位置
+                    $temp = $data [$j];
+                    $data [$j] = $data [$j - 1];
+                    $data [$j - 1] = $temp;
+                }
+            }
+        }
+    } else {
+        for($i = 0; $i < $count; $i ++) {
+            for($j = $count - 1; $j > $i; $j --) {
+                if ($data [$j] > $data [$j - 1]) {
+                    $temp = $data [$j];
+                    $data [$j] = $data [$j - 1];
+                    $data [$j - 1] = $temp;
+                }
+            }
+        }
+    }
+    return $data;
+}
+function arrBysort($data,$order = 'asc')
+{
+    $temp = array();
+    $count = count($data);
+    if ($count<=0){
+        return false;
+    }
+   if ($order == 'asc'){
+       for ($x=0;$x<$count;$x++){
+           for ($y=$count-1;$y>$x;$y--){
+               if ($data[$y]<$data[$y-1]){
+                   $temp = $y;
+                   $data[$y] = $data[$y-1];
+                   $data[$y-1] = $temp;
+               }
+           }
+       }
+   }
+   else {
+       for ($i = 0; $i < $count; $i++) {
+           for ($j = $count - 1; $j > $i; $j--) {
+               if ($data [$j] > $data [$j - 1]) {
+                   $temp = $data [$j];
+                   $data [$j] = $data [$j - 1];
+                   $data [$j - 1] = $temp;
+               }
+           }
+       }
+   }
+    return $data;
+}
+/**
+ * 二分查找
+ */
+function bin_search_e($arr,$low,$high,$k){
+    if ($low<$high){
+        $mid =intval(($low+$high)/2);
+        if($arr[$mid] == $k)
+        {
+            return $mid;
+        }
+        else if($k < $arr[$mid])
+        {
+            return bin_search($arr,$low,$mid-1,$k);
+        }
+        else
+        {
+            return bin_search($arr,$mid+1,$high,$k);
+        }
+    }
+    return -1;
+}
+function my_scandir($dir)
+{
+    $files = array();
+    if($handle = opendir($dir))
+    {
+        while (($file = readdir($handle))!== false)
+        {
+            if($file != '..' && $file != '.')
+            {
+                if(is_dir($dir."/".$file))
+                {
+                    $files[$file]=my_scandir($dir."/".$file);
+                }
+                else
+                {
+                    $files[] = $file;
+                }
+            }
+        }
+        closedir($handle);
+        return $files;
+    }
+}
+
+function request_post($url = '', $param = '') {
+    if (empty($url) || empty($param)) {
+        return false;
+    }
+
+    $postUrl = $url;
+    $curlPost = $param;
+    $curl = curl_init();//初始化curl
+    curl_setopt($curl, CURLOPT_URL,$postUrl);//抓取指定网页
+    curl_setopt($curl, CURLOPT_HEADER, 0);//设置header
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);//要求结果为字符串且输出到屏幕上
+    curl_setopt($curl, CURLOPT_POST, 1);//post提交方式
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $curlPost);
+    // 关闭SSL验证
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
+    $data = curl_exec($curl);//运行curl
+    if ($data === FALSE){
+        echo 'cURL Error:'.curl_error($curl);
+    }
+    curl_close($curl);
+    return $data;
+}
+?>
+
 
