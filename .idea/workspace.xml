@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485d7518-223f-4da5-a897-a08185bd71cd" name="Default" comment="php 常用开发函数技巧！">
-      <change afterPath="$PROJECT_DIR$/application/b2c/controller/Callback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/controller/Common.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/controller/Index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/view/common/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/view/common/mini_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/view/common/mini_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/b2c/view/common/reg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/common_global.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/h5/src/router/routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/mongodb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Qdstudy.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Qdstudy.com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/hprose/HproseServer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/mobile/postPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/css/iphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/js/iphone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wap/js/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Js.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Js.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,36 +31,14 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Js.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/controller/Js.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="learn.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/index/view/es/learn.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
-              <folding>
-                <element signature="n#script#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Vue Single File Component" />
         <option value="tsconfig.json" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
@@ -91,6 +65,16 @@
       <find>insert</find>
       <find>insertone</find>
       <find>postMessage</find>
+      <find>Swiper(</find>
+      <find>l</find>
+      <find>re</find>
+      <find>encrypt</find>
+      <find>encrpt</find>
+      <find>HaveGenerator</find>
+      <find>\Hprose\Socket\Serve</find>
+      <find>all</find>
+      <find>Future</find>
+      <find>async</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,57 +84,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/1.php" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/application/index/javascript.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Javascript.php" />
-        <option value="$PROJECT_DIR$/application/index/view/js.html" />
-        <option value="$PROJECT_DIR$/application/index/view/360.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/3d.php" />
-        <option value="$PROJECT_DIR$/public/static/index/js/viewer.js" />
-        <option value="$PROJECT_DIR$/application/index/view/js_arr.html" />
-        <option value="$PROJECT_DIR$/application/index/view/three/js_arr.html" />
-        <option value="$PROJECT_DIR$/public/static/index/css/photo-sphere-viewer.css" />
-        <option value="$PROJECT_DIR$/public/static/index/js/doT.js" />
-        <option value="$PROJECT_DIR$/public/static/index/js/uevent.js" />
-        <option value="$PROJECT_DIR$/public/static/index/js/photo-sphere-viewer.js" />
-        <option value="$PROJECT_DIR$/public/static/index/js/three.js" />
-        <option value="$PROJECT_DIR$/application/index/view/three/360.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/Three.php" />
-        <option value="$PROJECT_DIR$/Sellergoodsonline.php" />
-        <option value="$PROJECT_DIR$/application/h5/src/pages/user.vue" />
-        <option value="$PROJECT_DIR$/application/h5/src/router/router.js" />
-        <option value="$PROJECT_DIR$/application/h5/src/router/routers.js" />
-        <option value="$PROJECT_DIR$/application/index/view/node_test.js" />
-        <option value="$PROJECT_DIR$/application/index/view/node/input" />
-        <option value="$PROJECT_DIR$/application/index/view/node/main.js" />
-        <option value="$PROJECT_DIR$/application/index/view/node/input.js" />
-        <option value="$PROJECT_DIR$/application/index/view/node/users.json" />
-        <option value="$PROJECT_DIR$/application/index/view/node/server.js" />
-        <option value="$PROJECT_DIR$/application/index/view/node/register.js" />
-        <option value="$PROJECT_DIR$/application/index/view/mysql/daily" />
-        <option value="$PROJECT_DIR$/application/index/view/mysql/daily.md" />
-        <option value="$PROJECT_DIR$/application/index/view/public/header.html" />
-        <option value="$PROJECT_DIR$/application/config.php" />
-        <option value="$PROJECT_DIR$/application/common_global.php" />
-        <option value="$PROJECT_DIR$/application/index/view/index.html" />
-        <option value="$PROJECT_DIR$/../www.cqmkdcy.com/index.html" />
-        <option value="$PROJECT_DIR$/application/redis/Goodskill.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Goodskill.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/JqueryMoible.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Jmoible.php" />
-        <option value="$PROJECT_DIR$/application/index/view/jquerymoible/jm.html" />
-        <option value="$PROJECT_DIR$/application/mongodb.php" />
         <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Mogofile.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Jquery.php" />
         <option value="$PROJECT_DIR$/application/index/view/jquery/index.html" />
-        <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Aicon.php" />
         <option value="$PROJECT_DIR$/application/index/view/ejs/learn.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Js.php" />
         <option value="$PROJECT_DIR$/application/index/view/es/learn.html" />
+        <option value="$PROJECT_DIR$/application/index/view/es/1.html" />
+        <option value="$PROJECT_DIR$/application/index/controller/Advance.php" />
+        <option value="$PROJECT_DIR$/public/static/index/js/base.js" />
+        <option value="$PROJECT_DIR$/public/static/index/css/base.css" />
+        <option value="$PROJECT_DIR$/public/wap/css/base.css" />
+        <option value="$PROJECT_DIR$/public/wap/css/iphone.css" />
+        <option value="$PROJECT_DIR$/public/wap/js/iphone.js" />
+        <option value="$PROJECT_DIR$/public/wap/js/index/index.js" />
+        <option value="$PROJECT_DIR$/public/wap/iphone.html" />
+        <option value="$PROJECT_DIR$/application/index/view/index.html" />
+        <option value="$PROJECT_DIR$/public/wap/css/index.css" />
+        <option value="$PROJECT_DIR$/public/wap/index.html" />
+        <option value="$PROJECT_DIR$/application/mobile/postPage.php" />
+        <option value="$PROJECT_DIR$/public/wap/js/index.js" />
+        <option value="$PROJECT_DIR$/extend/Hprose/functions.php" />
+        <option value="$PROJECT_DIR$/extend/Hprose/Service.php" />
+        <option value="$PROJECT_DIR$/application/common.php" />
+        <option value="$PROJECT_DIR$/application/index/view/hprose/timer.html" />
+        <option value="$PROJECT_DIR$/application/Hprose.php" />
+        <option value="$PROJECT_DIR$/application/hprose/client.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/application/hprose/server.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Hprose.php" />
+        <option value="$PROJECT_DIR$/application/hprose/HproseServer.php" />
+        <option value="$PROJECT_DIR$/application/index/model/MyHprose.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseServer.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/fesHproseServer.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/fesHproseindex.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/FesHproseindex.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/FesHproseclient.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseClient.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/FesHproseclient1.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Feshproseclient.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/FesHproseServer.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/FesHproseServer1.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Feshproseserver.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseClientest.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseClientest1.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseServertest.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/HproseServertest1.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Hproseservertest.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Hproseclientest.php" />
       </list>
     </option>
   </component>
@@ -178,6 +162,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -201,28 +188,6 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Qdstudy.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Qdstudy.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Qdstudy.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Qdstudy.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Qdstudy.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Qdstudy.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="es" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,9 +197,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="mongo&#9;null&#9;null&#10;Connection&#9;null&#9;null&#10;mongodb&#9;FILE&#9;jar://C:/Program Files/JetBrains/PhpStorm 2018.1/plugins/php/lib/php.jar!/stubs/mongodb/mongodb.php&#10;png&#9;FILE&#9;file://D:/pstudy/WWW/Qdstudy.com/thinkphp/logo.png" />
+    <property name="SearchEverywhereHistoryKey" value="client&#9;null&#9;null&#10;all&#9;null&#9;null&#10;service&#9;null&#9;null&#10;conf&#9;FILE&#9;file://D:/pstudy/WWW/Qdstudy.com/public/wap/js/config.js&#10;con&#9;FILE&#9;file://D:/pstudy/WWW/Qdstudy.com/public/wap/js/config.js&#10;mongo&#9;null&#9;null&#10;Connection&#9;null&#9;null&#10;mongodb&#9;FILE&#9;jar://C:/Program Files/JetBrains/PhpStorm 2018.1/plugins/php/lib/php.jar!/stubs/mongodb/mongodb.php&#10;png&#9;FILE&#9;file://D:/pstudy/WWW/Qdstudy.com/thinkphp/logo.png" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../www.bxyg365.com" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node_global/vueBlog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -242,18 +207,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pstudy\WWW\Qdstudy.com" />
+      <recent name="D:\pstudy\WWW\Qdstudy.com\extend" />
+      <recent name="D:\pstudy\WWW\Qdstudy.com\public\wap\js" />
       <recent name="D:\pstudy\WWW\Qdstudy.com\application\index\controller" />
       <recent name="D:\pstudy\WWW\Qdstudy.com\public\static\index\js" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\public\static\index\js\dot" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\application\index\view\three" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\application\index\view\Three" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pstudy\WWW" />
+      <recent name="D:\pstudy\WWW\Qdstudy.com\extend" />
+      <recent name="D:\pstudy\WWW\Qdstudy.com\public\wap\js" />
+      <recent name="D:\pstudy\WWW\Qdstudy.com\public\wap" />
       <recent name="D:\pstudy\WWW\Qdstudy.com\extend\Mongo" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\public\static\plugins" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\public" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\application\index\view\node" />
-      <recent name="D:\pstudy\WWW\Qdstudy.com\application" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +233,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="JavaScript Debug.server.php">
+    <configuration name="server.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49399/Qdstudy.com/hprose/server.php" />
     <configuration name="input.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="input.js" working-dir="$PROJECT_DIR$/application/index/view/node" />
     <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/application/index/view/node" />
     <configuration name="node_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node_test.js" working-dir="$PROJECT_DIR$/application/index/view" />
@@ -278,9 +244,11 @@
       <item itemvalue="Node.js.main.js" />
       <item itemvalue="Node.js.input.js" />
       <item itemvalue="Node.js.server.js" />
+      <item itemvalue="JavaScript Debug.server.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.server.php" />
         <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.input.js" />
         <item itemvalue="Node.js.main.js" />
@@ -411,7 +379,21 @@
       <workItem from="1557887514390" duration="4690000" />
       <workItem from="1557975789745" duration="9157000" />
       <workItem from="1558059744501" duration="7596000" />
-      <workItem from="1558323058116" duration="3579000" />
+      <workItem from="1558323058116" duration="5682000" />
+      <workItem from="1558409691697" duration="1642000" />
+      <workItem from="1558419590910" duration="596000" />
+      <workItem from="1558495411356" duration="599000" />
+      <workItem from="1558581105257" duration="598000" />
+      <workItem from="1559027024647" duration="2242000" />
+      <workItem from="1559101201102" duration="140000" />
+      <workItem from="1559191332513" duration="15548000" />
+      <workItem from="1559271677598" duration="603000" />
+      <workItem from="1559539707186" duration="8476000" />
+      <workItem from="1559618353404" duration="6278000" />
+      <workItem from="1559964125169" duration="595000" />
+      <workItem from="1559793175454" duration="10341000" />
+      <workItem from="1560136239184" duration="18371000" />
+      <workItem from="1560223528670" duration="5769000" />
     </task>
     <task id="LOCAL-00001" summary="php 常用开发函数技巧！">
       <created>1549946366985</created>
@@ -420,35 +402,51 @@
       <option name="project" value="LOCAL" />
       <updated>1549946366985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="php 常用开发函数技巧！">
+      <created>1558327081993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558327081993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323497000" />
+    <option name="totallyTimeSpent" value="397398000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28654593" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006468" side_tool="true" weight="0.39635855" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946466" weight="0.32913166" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006468" side_tool="true" weight="0.39635855" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49946466" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935317" weight="0.39635855" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.26286355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23740621" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36554623" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.6680672" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,226 +487,187 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/index/controller/Hprose.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/h5/src/router/routers.js">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Future/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/src/pages/User.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="11477">
+          <caret line="512" column="25" selection-start-line="512" selection-start-column="25" selection-end-line="512" selection-end-column="25" />
+          <folding>
+            <element signature="e#1124#1142#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Future.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="6256">
+          <caret line="282" column="77" selection-start-line="282" selection-start-column="77" selection-end-line="282" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/h5/src/router/routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/b2c/view/common/reg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/b2c/view/common/mini_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/学习资料.txt" />
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/学习资料.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/node/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/mysql/daily.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
+    <entry file="file://$PROJECT_DIR$/public/static/index/css/base.css" />
+    <entry file="file://$PROJECT_DIR$/public/static/index/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
+    <entry file="file://$PROJECT_DIR$/public/wap/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6084">
-          <caret line="242" column="31" selection-start-line="242" selection-start-column="31" selection-end-line="242" selection-end-column="31" />
+        <state relative-caret-position="943">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/public/header.html">
+    <entry file="file://$PROJECT_DIR$/public/wap/css/iphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wap/js/iphone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="14" selection-start-column="4" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wap/js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="291" lean-forward="true" selection-start-line="2" selection-start-column="291" selection-end-line="2" selection-end-column="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wap/iphone.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="247" column="33" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wap/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/mobile/postPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common_global.php">
+    <entry file="file://$PROJECT_DIR$/public/wap/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/b2c/controller/Common.php">
+    <entry file="file://$PROJECT_DIR$/public/wap/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="364">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/b2c/controller/Callback.php">
+    <entry file="file://$PROJECT_DIR$/public/wap/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="338">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/route.php">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Http/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="468">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../www.cqmkdcy.com/index.html">
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="505" column="44" selection-start-line="505" selection-start-column="44" selection-end-line="505" selection-end-column="44" />
+        <state relative-caret-position="234">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Three.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="270">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Jmoible.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="1" selection-start-line="15" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="154" column="42" lean-forward="true" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/jquerymoible/jm.html">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="621">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mongodb/mongodb.php">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8944">
-          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        <state relative-caret-position="305">
+          <caret line="660" column="26" selection-start-line="660" selection-start-column="26" selection-end-line="660" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/think">
+    <entry file="file://$PROJECT_DIR$/application/index/view/hprose/timer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Connection.php">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/WriterRefer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4469">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="322">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mongo/mongo.php">
+    <entry file="file://$PROJECT_DIR$/thinkphp/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3097">
-          <caret line="262" selection-start-line="14" selection-end-line="262" />
+        <state relative-caret-position="143">
+          <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/mongodb.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -719,127 +678,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/Mongo/Exception/Exception.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extend/Mongo/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5606">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="322">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/Mongo/InsertOneResult.php">
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Http/Server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="322">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/Mongo/functions.php">
+    <entry file="file://$PROJECT_DIR$/application/route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/Mongo/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/Mongo/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2815">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
+        <state relative-caret-position="103">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Mogofile.php">
+    <entry file="file://$PROJECT_DIR$/application/common_global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Goodskill.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/jquery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Jquery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="138">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="294" column="22" lean-forward="true" selection-start-line="274" selection-start-column="1" selection-end-line="294" selection-end-column="22" />
+        <state relative-caret-position="115">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/hprose/client.php" />
+    <entry file="file://$PROJECT_DIR$/application/hprose/server.php" />
     <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Aicon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/es/learn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="n#script#0;n#html#0;n#!!top" />
+            <element signature="e#39#60#0#PHP" expanded="true" />
+            <element signature="e#132#607#0#PHP" />
+            <element signature="e#612#794#0#PHP" />
+            <element signature="e#799#1130#0#PHP" />
+            <element signature="e#1167#1369#0#PHP" />
+            <element signature="e#1385#1487#0#PHP" />
+            <element signature="e#1492#1568#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Hprose.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#61#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/hprose/HproseServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/FesHproseclient1.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/controller/FesHproseServer1.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/controller/FesHproseServer1.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Feshproseclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Feshproseserver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#129#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/HproseClientest1.php" />
+    <entry file="file://$PROJECT_DIR$/application/index/model/MyHprose.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/HproseServertest1.php" />
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Future.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2981">
+          <caret line="282" column="58" selection-start-line="282" selection-start-column="58" selection-end-line="282" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/Hprose/Future/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="503" lean-forward="true" selection-start-line="503" selection-end-line="503" />
+          <folding>
+            <element signature="e#1124#1142#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Hproseservertest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Hproseclientest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#130#151#0#PHP" expanded="true" />
+            <element signature="e#1256#1545#0#PHP" />
           </folding>
         </state>
       </provider>

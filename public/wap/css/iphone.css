@@ -1,0 +1,7 @@
+
+:root{
+    --bili:0.027rem;
+}
+.header{
+    height:calc(var(--bili) * 80);
+}

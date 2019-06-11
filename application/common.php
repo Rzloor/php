@@ -295,6 +295,104 @@ function request_post($url = '', $param = '') {
     curl_close($curl);
     return $data;
 }
+
+/**
+ * 递归无限极分类实现
+ */
+function tree($arr,$pid = 0,$level = 0){
+    static $list = [];
+    foreach ($arr as $v){
+        if ($v['parent_id'] == $pid){
+            $v['level'] = $level;
+            $list[] = $v;
+            tree($arr,$v['cat_id'],$level+1);
+        }
+    }
+    return $list;
+}
+//地柜无限极数据库设计
+
+/*CREATE TABLE category(
+    cat_id smallint unsigned not null auto_increment primary key comment'类别ID',
+cat_name VARCHAR(30)NOT NULL DEFAULT''COMMENT'类别名称',
+parent_id SMALLINT UNSIGNED NOT NULL DEFAULT 0 COMMENT'类别父ID'
+)engine=MyISAM charset=utf8;*/
+
+/**
+ * 抓取网页内容
+ */
+//[1]
+function getContents($url){
+    $contents = fopen($url,'rb');
+    $stream_contents = stream_get_contents($contents);
+    fclose($contents);
+    return $stream_contents;
+}
+//[2]
+function getfileContents($url){
+    if (empty($url))  return false;
+    return file_get_contents($url);
+}
+
+/**
+ *  将截止时间秒数转换为日期制
+ */
+function formatTime($date){
+    $t = $date-time();
+    $f = array(
+        '31536000'=>'年',
+        '2592000'=>'个月',
+        '604800'=>'星期',
+        '86400'=>'天',
+        '3600'=>'小时',
+        '60'=>'分钟',
+        '1'=>'秒'
+    );
+        foreach($f as $k=>$v){
+            $c = floor($t/(int)$k);
+            if($c > 0){
+                if(0 != $c){
+                    return "剩余".$c.$v;
+                }
+            }
+        }
+    return "已截止";
+}
+
+/**
+ * 字符串翻转
+ */
+function strReev($str){
+    if ($str == '')
+    {
+        return false;
+    }
+    $len  = strlen($str);
+    $newstr = '';
+    if ($len<=0){
+        return false;
+    }
+    for ($i=$len-1;$i>=0;$i--){
+        $newstr .= $str[$i];
+    }
+    return $newstr;
+}
+
+/**
+ * 递归循环某目录下的子目录及文件并输出
+ */
+function treeDir($dir,$level=1){
+    $dir = opendir($dir);
+    while ($dirname=readdir($dir)){
+        if ($dirname == '.' || $dirname == '..') continue;
+        echo '|'.str_repeat('_',$level).$dirname;
+        echo '<br>';
+        if (is_dir($dir.'/'.$dirname))  treeDir($dir.'/'.$dirname,$level+2);
+    }
+}
+function hello($name) {
+    return "Hello $name!";
+}
 ?>
 
 
